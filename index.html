@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ETF Overview</title>
+  <meta name="description" content="Moderne Übersicht zu Themen-ETFs mit Dark-Mode Design." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="ETF Overview Startseite">
+      <span class="brand-mark">ETF</span>
+      <span>Overview</span>
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="index.html" class="active">Start</a>
+      <a href="etf.html">ETF-Analyse</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Dark Mode ETF Dashboard</p>
+        <h1>Strukturierte ETF-Analysen für thematische Investments.</h1>
+        <p class="lead">Übersichtliche Kennzahlen, Portfolioqualität, Chancen, Risiken und eine klare Einschätzung zur Investierbarkeit.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="etf.html">ETF öffnen</a>
+          <a class="button ghost" href="#etfs">Zur Auswahl</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="ETF Portfolio Snapshot">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <p class="panel-label">Aktuelle Analyse</p>
+        <h2>Xtrackers Electrification Technologies & Smart Grid UCITS ETF 1C</h2>
+        <div class="metric-grid mini">
+          <div><span>TER</span><strong>0,35%</strong></div>
+          <div><span>Risiko</span><strong>6/7</strong></div>
+          <div><span>Auflage</span><strong>31.03.2026</strong></div>
+          <div><span>Top-These</span><strong>Smart Grid</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="etfs" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">ETF-Auswahl</p>
+        <h2>Analysierte ETFs</h2>
+        <p>Der ETF ist anklickbar und führt direkt zur vollständigen Detailübersicht.</p>
+      </div>
+
+      <a class="etf-card" href="etf.html" aria-label="Xtrackers Electrification Technologies & Smart Grid UCITS ETF 1C Analyse öffnen">
+        <div class="card-topline">
+          <span class="pill">Themen-ETF</span>
+          <span class="pill muted">UCITS</span>
+          <span class="pill muted">Thesaurierend</span>
+        </div>
+        <h3>Xtrackers Electrification Technologies & Smart Grid UCITS ETF 1C</h3>
+        <p>Globaler Aktien-ETF auf Elektrifizierung, Smart Grid, Energieinfrastruktur, Leistungshalbleiter und Netzmodernisierung.</p>
+        <div class="card-stats">
+          <span><strong>ISIN</strong> IE000O7Q2E56</span>
+          <span><strong>WKN</strong> DBX0XU</span>
+          <span><strong>Ticker</strong> WIRE LN / WIRE.DE</span>
+        </div>
+        <div class="card-footer">
+          <span>Analyse öffnen</span>
+          <span aria-hidden="true">→</span>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>ETF Overview · Informationsseite, keine Anlageberatung.</p>
+  </footer>
+</body>
+</html>
