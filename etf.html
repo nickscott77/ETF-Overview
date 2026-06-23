@@ -55,24 +55,30 @@
         <div class="chart-return">+40,9%</div>
       </div>
       <p class="note">Der ETF wurde erst am 31.03.2026 aufgelegt. Ein volles Jahr ETF-Historie existiert noch nicht; der Chart zeigt die verfügbare NAV-Historie bis 22.06.2026.</p>
-      <svg class="chart" viewBox="0 0 720 250" role="img" aria-label="NAV-Chart seit Auflage von 29,52 auf 41,61 USD">
+      <svg class="chart" viewBox="0 0 720 280" role="img" aria-label="NAV-Chart seit Auflage von 29,52 auf 41,61 USD">
         <defs>
           <linearGradient id="lineGradient" x1="0" x2="1" y1="0" y2="0">
-            <stop offset="0" stop-color="#38bdf8" />
-            <stop offset="1" stop-color="#22c55e" />
+            <stop offset="0" stop-color="#7dd3fc" />
+            <stop offset="0.55" stop-color="#facc15" />
+            <stop offset="1" stop-color="#4ade80" />
           </linearGradient>
           <linearGradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0" stop-color="#22c55e" stop-opacity="0.26" />
-            <stop offset="1" stop-color="#22c55e" stop-opacity="0" />
+            <stop offset="0" stop-color="#4ade80" stop-opacity="0.42" />
+            <stop offset="1" stop-color="#38bdf8" stop-opacity="0.05" />
           </linearGradient>
         </defs>
+        <rect x="1" y="1" width="718" height="278" rx="16" class="chart-bg" />
         <line x1="20" y1="20" x2="700" y2="20" class="grid-line" />
         <line x1="20" y1="110" x2="700" y2="110" class="grid-line" />
         <line x1="20" y1="200" x2="700" y2="200" class="grid-line" />
+        <text class="axis-label" x="624" y="24">41,61 USD</text>
+        <text class="axis-label" x="624" y="203">29,52 USD</text>
         <polygon class="chart-area" points="20.0,200.0 31.9,181.4 43.9,190.7 55.8,184.0 67.7,152.0 79.6,149.9 91.6,144.9 103.5,144.3 115.4,136.1 127.4,136.5 139.3,132.2 151.2,123.0 163.2,121.2 175.1,119.9 187.0,115.3 198.9,103.2 210.9,100.6 222.8,102.9 234.7,108.3 246.7,106.0 258.6,94.2 270.5,95.8 282.5,91.4 294.4,87.0 306.3,72.8 318.2,73.6 330.2,75.0 342.1,63.1 354.0,73.8 366.0,61.0 377.9,59.7 389.8,75.4 401.8,81.0 413.7,92.1 425.6,84.7 437.5,72.3 449.5,62.0 461.4,51.6 473.3,40.3 485.3,39.5 497.2,41.0 509.1,39.6 521.1,46.2 533.0,36.5 544.9,30.8 556.8,37.4 568.8,65.4 580.7,72.8 592.6,65.3 604.6,89.6 616.5,78.0 628.4,68.4 640.4,52.8 652.3,53.7 664.2,50.4 676.1,33.2 688.1,30.9 700.0,20.0 700,220 20,220" />
         <polyline class="chart-line" points="20.0,200.0 31.9,181.4 43.9,190.7 55.8,184.0 67.7,152.0 79.6,149.9 91.6,144.9 103.5,144.3 115.4,136.1 127.4,136.5 139.3,132.2 151.2,123.0 163.2,121.2 175.1,119.9 187.0,115.3 198.9,103.2 210.9,100.6 222.8,102.9 234.7,108.3 246.7,106.0 258.6,94.2 270.5,95.8 282.5,91.4 294.4,87.0 306.3,72.8 318.2,73.6 330.2,75.0 342.1,63.1 354.0,73.8 366.0,61.0 377.9,59.7 389.8,75.4 401.8,81.0 413.7,92.1 425.6,84.7 437.5,72.3 449.5,62.0 461.4,51.6 473.3,40.3 485.3,39.5 497.2,41.0 509.1,39.6 521.1,46.2 533.0,36.5 544.9,30.8 556.8,37.4 568.8,65.4 580.7,72.8 592.6,65.3 604.6,89.6 616.5,78.0 628.4,68.4 640.4,52.8 652.3,53.7 664.2,50.4 676.1,33.2 688.1,30.9 700.0,20.0" />
-        <text x="20" y="238">31.03.26 · 29,52 USD</text>
-        <text x="548" y="238">22.06.26 · 41,61 USD</text>
+        <circle class="chart-point start" cx="20" cy="200" r="6" />
+        <circle class="chart-point end" cx="700" cy="20" r="7" />
+        <text class="date-label" x="20" y="252">31.03.26 · 29,52 USD</text>
+        <text class="date-label end-label" x="530" y="252">22.06.26 · 41,61 USD</text>
       </svg>
     </section>
 

@@ -138,11 +138,26 @@ dd { margin: 4px 0 0; font-weight: 800; }
 .note { margin: 8px 0 16px; font-size: .95rem; }
 .chart-return { color: var(--green); font-size: 2rem; font-weight: 900; }
 
+.chart-panel { background: #0b1220; border-color: rgba(125, 211, 252, .28); }
 .chart { width: 100%; height: auto; display: block; overflow: visible; }
-.grid-line { stroke: rgba(255,255,255,.08); stroke-width: 1; }
-.chart-line { fill: none; stroke: url(#lineGradient); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.chart-bg { fill: #050814; stroke: rgba(125, 211, 252, .28); stroke-width: 2; }
+.grid-line { stroke: rgba(226, 232, 240, .22); stroke-width: 1.2; stroke-dasharray: 4 7; }
+.chart-line {
+  fill: none;
+  stroke: url(#lineGradient);
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 0 8px rgba(250, 204, 21, .5));
+}
 .chart-area { fill: url(#areaGradient); }
-.chart text { fill: var(--muted); font-size: 13px; }
+.chart-point { fill: #f8fafc; stroke: #0f172a; stroke-width: 3; }
+.chart-point.end { fill: #4ade80; }
+.chart-point.start { fill: #7dd3fc; }
+.chart text { fill: #e5edf8; font-size: 14px; font-weight: 800; paint-order: stroke; stroke: #050814; stroke-width: 4px; stroke-linejoin: round; }
+.axis-label { text-anchor: end; }
+.date-label { fill: #f8fafc; }
+.end-label { text-anchor: start; }
 
 .holdings { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .row { display: grid; grid-template-columns: 1fr 90px 2fr; gap: 14px; padding: 13px 15px; border-bottom: 1px solid var(--line); align-items: center; }
