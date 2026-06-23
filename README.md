@@ -1,6 +1,6 @@
 # ETF Overview
 
-Moderne Dark-Mode-Webseite für ETF-Analysen.
+Einfache Dark-Mode-Webseite für ETF-Analysen.
 
 Aktuell enthalten:
 
@@ -11,14 +11,14 @@ Aktuell enthalten:
 
 ## Inhalt
 
-Die Webseite enthält:
+- Startseite mit anklickbarer ETF-Karte
+- vereinfachte Detailseite
+- Stammdaten und Investment-Einschätzung
+- Chart der verfügbaren NAV-Historie
+- Top-Holdings und Themenfit
+- Chancen, Risiken und geografische Gewichtung
 
-- anklickbare ETF-Karte auf der Startseite
-- ausführliche Detailseite mit Stammdaten
-- Top-Holdings und Marktstellung
-- Länder- und Währungsgewichtung
-- Chancen, Risiken und Fazit
-- Einschätzung zur Investierbarkeit
+Hinweis: Der ETF wurde erst am 31.03.2026 aufgelegt. Deshalb zeigt der Chart die verfügbare Historie seit Auflage, nicht ein vollständiges Kalenderjahr.
 
 ## Lokal starten
 
@@ -31,7 +31,5 @@ Dann öffnen:
 ```text
 http://localhost:8080
 ```
-
-## Hinweis
 
 Die Inhalte dienen der Information und sind keine Anlageberatung.
