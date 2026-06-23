@@ -5,20 +5,23 @@ Einfache Dark-Mode-Webseite für ETF-Analysen.
 Aktuell enthalten:
 
 - Xtrackers Electrification Technologies & Smart Grid UCITS ETF 1C
-- ISIN: IE000O7Q2E56
-- WKN: DBX0XU
-- Ticker: WIRE LN / WIRE.DE
+  - ISIN: IE000O7Q2E56
+  - WKN: DBX0XU
+  - Ticker: WIRE LN / WIRE.DE
+- Global X Data Center REITs & Digital Infrastructure UCITS ETF USD Accumulating
+  - ISIN: IE00BMH5Y327
+  - Ticker: VPN / VPN.L
 
 ## Inhalt
 
 - Startseite mit anklickbarer ETF-Karte
 - vereinfachte Detailseite
 - Stammdaten und Investment-Einschätzung
-- Chart der verfügbaren NAV-Historie
+- Charts der jeweiligen verfügbaren Kurs-/NAV-Historie
 - Top-Holdings und Themenfit
 - Chancen, Risiken und geografische Gewichtung
 
-Hinweis: Der ETF wurde erst am 31.03.2026 aufgelegt. Deshalb zeigt der Chart die verfügbare Historie seit Auflage, nicht ein vollständiges Kalenderjahr.
+Hinweis: Die Detailseiten nutzen unterschiedliche Datenstände und Quellen; die Chart-Hinweise auf den Seiten nennen jeweils Zeitraum und Datenbasis.
 
 ## Lokal starten
 
